@@ -1,0 +1,88 @@
+.horizontal-school-card-container{
+    width: 100%;
+    height: auto;
+    gap: 10px;
+    .horizontal-school-card {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        border-radius: 5px;
+        height: 151px;
+        border-radius: 5px;
+        border: 1px solid #EF9C14;
+        background: #FDFAF5;
+        padding: 13px 5px;
+        margin-top: 10px;
+    
+        .image {
+            background-color: #000;
+            width: 94px;
+            height: 125px;
+            border-radius: 5px;
+            background-image: url(assets/aui-building-1.jpeg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+    
+            img {
+                height: 100%;
+                width: 170%;
+            }
+    
+        }
+    
+        .body-card {
+            /* background: #000; */
+            width: 70%;
+    
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+    
+            .text span {
+                color: #000;
+                text-align: center;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+    
+            .text p {
+                font-size: 13px;
+                width: 100%;
+    
+            }
+        }
+    
+        .card-foter {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+            label:nth-of-type(2) {
+    
+                display: flex;
+    
+                gap: 5px;
+                width: 70px;
+                justify-content: space-between;
+                align-items: center;
+    
+                a {
+                    font-weight: 400;
+                    font-size: 14px;
+                    text-decoration: none;
+                    color: #EF9C14;
+                }
+            }
+        }
+    
+    }
+}

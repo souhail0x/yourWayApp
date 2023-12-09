@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media screen and (min-width: 769px) {
+
+
+
+    .desktop-message {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 50px;
+        /* Adjust the margin as needed */
+
+        display: block;
+        font-family: poppins;
+    }
+
+    .home-page-container {
+        display: none;
+    }
+
+    /* Message for desktop version under development */
+
+
+}
